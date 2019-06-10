@@ -1,0 +1,9 @@
+/.settings
+/.classpath
+/.project
+/target
+.mvn/wrapper/maven-wrapper.jar
+*.releaseBackup
+release.properties
+/.idea
+*.iml
