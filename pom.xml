@@ -4,7 +4,7 @@
 
   <groupId>yusiwen</groupId>
   <artifactId>base-parent</artifactId>
-  <version>3</version>
+  <version>4-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>base-parent</name>
@@ -51,7 +51,7 @@
     <lombok.version>1.18.8</lombok.version>
 
     <!-- Parent Tracking on site -->
-    <base-parent.version>3</base-parent.version>
+    <base-parent.version>4-SNAPSHOT</base-parent.version>
 
     <!-- Checkstyle -->
     <checkstyle.config>checkstyle.xml</checkstyle.config>
@@ -136,7 +136,7 @@
     <connection>scm:git:git@git.yusiwen.cn:yusiwen/base-parent.git</connection>
     <developerConnection>scm:git:git@git.yusiwen.cn:yusiwen/base-parent.git</developerConnection>
     <url>https://git.yusiwen.cn/yusiwen/base-parent</url>
-    <tag>v3</tag>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>Gitea</system>
