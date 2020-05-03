@@ -118,7 +118,7 @@
     <doxia.version>1.9</doxia.version>
     <doxiaPlus1.version>1.8.1</doxiaPlus1.version>
     <findsecbugs.version>1.10.1</findsecbugs.version>
-    <fluido.version>1.7</fluido.version>
+    <fluido.version>1.9</fluido.version>
     <htmlcompressor.version>1.7.0</htmlcompressor.version>
     <javac.version>9+181-r4173-1</javac.version>
     <jgit.version>5.3.1.201904271842-r</jgit.version>
