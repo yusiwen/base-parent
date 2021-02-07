@@ -6,4 +6,5 @@
 *.releaseBackup
 release.properties
 /.idea
+/.vscode
 *.iml
