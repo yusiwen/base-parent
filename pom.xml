@@ -43,6 +43,8 @@
     <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
+    <indent.size>2</indent.size>
+
     <!-- Supported Versions -->
     <error-prone.version>2.5.1</error-prone.version>
     <hibernate-validator.version>7.0.0.Final</hibernate-validator.version>
@@ -578,7 +580,7 @@
           <artifactId>xml-format-maven-plugin</artifactId>
           <version>${xml-format.plugin}</version>
           <configuration>
-            <indentSize>4</indentSize>
+            <indentSize>${indent.size}</indentSize>
             <lineLength>120</lineLength>
             <skip>true</skip> <!-- TODO: Skip this for now until some adjustments are made -->
           </configuration>
@@ -1292,7 +1294,7 @@
             <groupId>net.revelc.code.formatter</groupId>
             <artifactId>formatter-maven-plugin</artifactId>
             <configuration>
-              <configFile>eclipse-formatter-config-2space.xml</configFile>
+              <configFile>eclipse-formatter-config-${indent.size}space.xml</configFile>
               <overrideConfigCompilerVersion>true</overrideConfigCompilerVersion>
               <compilerSource>${maven.compiler.source}</compilerSource>
               <compilerCompliance>${maven.compiler.source}</compilerCompliance>
