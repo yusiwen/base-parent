@@ -23,7 +23,7 @@
 
   <properties>
     <!-- Copyright -->
-    <copyright>2019</copyright>
+    <copyright>2021</copyright>
 
     <!-- Maven minimum version -->
     <maven.min-version>3.6.1</maven.min-version>
@@ -1283,7 +1283,7 @@
       <id>format</id>
       <activation>
         <file>
-          <exists>format.xml</exists>
+          <exists>.format</exists>
         </file>
       </activation>
       <build>
