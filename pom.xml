@@ -90,7 +90,7 @@
     <jaxws.plugin>3.0.1</jaxws.plugin>
     <jdepend.plugin>2.0</jdepend.plugin>
     <jxr.plugin>3.0.0</jxr.plugin>
-    <license.plugin>3.0</license.plugin>
+    <license.plugin>4.1</license.plugin>
     <lifecycle.plugin>1.0.0</lifecycle.plugin>
     <modernizer.plugin>2.2.0</modernizer.plugin>
     <pdf.plugin>1.4</pdf.plugin>
