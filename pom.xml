@@ -2,14 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>yusiwen</groupId>
+  <groupId>cn.yusiwen</groupId>
   <artifactId>base-parent</artifactId>
   <version>15-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>base-parent</name>
-  <url>https://git.yusiwen.cn/yusiwen/base-parent</url>
+  <url>https://github.com/yusiwen/base-parent</url>
   <inceptionYear>2007</inceptionYear>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
 
   <developers>
     <developer>
@@ -137,28 +144,19 @@
   </properties>
 
   <scm>
-    <connection>scm:git:git@git.yusiwen.cn:yusiwen/base-parent.git</connection>
-    <developerConnection>scm:git:git@git.yusiwen.cn:yusiwen/base-parent.git</developerConnection>
-    <url>https://git.yusiwen.cn/yusiwen/base-parent</url>
+    <connection>scm:git:ssh://git@github.com/yusiwen/base-parent.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/yusiwen/base-parent.git</developerConnection>
+    <url>https://github.com/yusiwen/base-parent</url>
     <tag>HEAD</tag>
   </scm>
   <issueManagement>
-    <system>Gitea</system>
-    <url>https://git.yusiwen.cn/yusiwen/base-parent/issues</url>
+    <system>Github</system>
+    <url>https://github.com/yusiwen/base-parent/issues</url>
   </issueManagement>
-
-  <distributionManagement>
-    <snapshotRepository>
-      <id>snapshots</id>
-      <name>vps01-snapshots</name>
-      <url>https://maven.yusiwen.cn/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
-    <repository>
-      <id>central</id>
-      <name>vps01-releases</name>
-      <url>https://maven.yusiwen.cn/artifactory/libs-release-local</url>
-    </repository>
-  </distributionManagement>
+  <ciManagement>
+    <system>travis-ci</system>
+    <url>https://travis-ci.org/yusiwen/base-parent</url>
+  </ciManagement>
 
   <build>
     <pluginManagement>
