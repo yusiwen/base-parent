@@ -134,7 +134,7 @@
     <license-git.version>4.1</license-git.version>
     <metro.version>3.0.3</metro.version>
     <sb-contrib.version>7.4.7</sb-contrib.version>
-    <scm.version>1.12.0</scm.version>
+    <scm.version>1.13.0</scm.version>
     <wagon-git.version>2.0.4</wagon-git.version> <!-- Do not upgrade to 2.0.4 as it doesn't work -->
     <wagon-ssh.version>3.4.3</wagon-ssh.version>
     <yuicompressor.version>2.4.8</yuicompressor.version>
