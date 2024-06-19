@@ -91,7 +91,7 @@
     <impsort.plugin>1.6.2</impsort.plugin>
     <install.plugin>3.0.0-M1</install.plugin>
     <jacoco.plugin>0.8.7</jacoco.plugin>
-    <jar.plugin>3.2.0</jar.plugin>
+    <jar.plugin>3.4.2</jar.plugin>
     <javadoc.plugin>3.3.1</javadoc.plugin>
     <javancss.plugin>2.1</javancss.plugin>
     <jaxws.plugin>3.0.2</jaxws.plugin>
