@@ -130,7 +130,7 @@
     <fluido.version>1.10.0</fluido.version>
     <htmlcompressor.version>1.7.2</htmlcompressor.version>
     <javac.version>9+181-r4173-1</javac.version>
-    <jgit.version>6.0.0.202111291000-r</jgit.version>
+    <jgit.version>6.10.0.202406032230-r</jgit.version>
     <license-git.version>4.1</license-git.version>
     <metro.version>3.0.3</metro.version>
     <sb-contrib.version>7.4.7</sb-contrib.version>
