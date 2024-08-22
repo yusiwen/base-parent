@@ -96,7 +96,7 @@
     <javancss.plugin>2.1</javancss.plugin>
     <jaxws.plugin>3.0.2</jaxws.plugin>
     <jdepend.plugin>2.0</jdepend.plugin>
-    <jxr.plugin>3.1.1</jxr.plugin>
+    <jxr.plugin>3.5.0</jxr.plugin>
     <license.plugin>4.1</license.plugin>
     <lifecycle.plugin>1.0.0</lifecycle.plugin>
     <modernizer.plugin>2.3.0</modernizer.plugin>
